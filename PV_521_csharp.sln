@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Less2_types", "Less2_types\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Less3_array_string", "Less3_array_string\Less3_array_string.csproj", "{69F28FD2-4983-4D47-9471-6FCE6410D82C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Less4_enum_struct_class", "Less4_enum_struct_class\Less4_enum_struct_class.csproj", "{8D6EF478-2879-4276-AE2A-C9DE2461B2FC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{69F28FD2-4983-4D47-9471-6FCE6410D82C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{69F28FD2-4983-4D47-9471-6FCE6410D82C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{69F28FD2-4983-4D47-9471-6FCE6410D82C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D6EF478-2879-4276-AE2A-C9DE2461B2FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D6EF478-2879-4276-AE2A-C9DE2461B2FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D6EF478-2879-4276-AE2A-C9DE2461B2FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D6EF478-2879-4276-AE2A-C9DE2461B2FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -126,13 +126,13 @@ namespace Less3_array_string
 
             //Console.WriteLine(str4.Length);
 
-            Stopwatch timer = new Stopwatch();
-            timer.Start();
-            string s = String.Empty;
-            for (uint i = 0; i < 300000; i++)
-            {
-                s += "hi ";
-            }
+            //Stopwatch timer = new Stopwatch();
+            //timer.Start();
+            //string s = String.Empty;
+            //for (uint i = 0; i < 300000; i++)
+            //{
+            //    s += "hi ";
+            //}
 
 
             //StringBuilder stringBuilder = new StringBuilder();
@@ -140,9 +140,34 @@ namespace Less3_array_string
             //{
             //    stringBuilder.Append("hi ");
             //}
-            timer.Stop();
-            Console.WriteLine(timer.ElapsedMilliseconds + " ms");
-           // Console.WriteLine(stringBuilder.ToString());
+            //timer.Stop();
+            //Console.WriteLine(timer.ElapsedMilliseconds + " ms");
+            // Console.WriteLine(stringBuilder.ToString());
+            string str = "   Hello"; // "Hello"
+            //str = str + " World";
+            str += " World.   "; //"Hello World"
+            //Console.WriteLine(str.StartsWith("9"));
+            //Console.WriteLine(str.EndsWith("."));
+            //Console.WriteLine(str.Contains("test"));
+            //string str2 = str.Trim(); //прибирає пробели
+            //str.TrimStart(); 
+            //str.TrimEnd();
+            //Console.WriteLine(str2);
+            //IndexOf, LastIndexOf
+            //double x = 5.63747;
+            //Console.WriteLine(String.Format("{0:0.00}", x));
+            //Console.WriteLine(str.ToUpper());
+            //Console.WriteLine(str.ToLower());
+            //string fruits = "banana,lemon,orange";
+            //string[] result = fruits.Split(',');
+            //foreach (string str2 in result)
+            //{
+            //    Console.WriteLine(str2);
+            //}
+            //Console.WriteLine(String.Join(' ', result));
+            //Console.WriteLine(str.Replace(" ", ""));
+            //StringBuilder
+
         }
     }
 }
