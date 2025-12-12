@@ -8,27 +8,39 @@ namespace Less6_classes
 {
     internal class Student
     {
+        const string COUNTRY = "Ukraine";
+        //private static int countObject;
+        public static int CountObject { set; get; }
+        static Student()
+        {
+            CountObject = 0; //ініціалізує статичним полям
+        }
         //властивості properties
-        private int myAge;
+        //private int myAge;
 
-        //public int MyAge { get; set; }
+        public int MyAge { get; set; } = 18;
+        public Student()
+        {
+            CountObject++;
+        }
         public Student(int age)
         {
-           this.MyAge = age;
+            this.MyAge = age;
+            CountObject++;
         }
-        public int MyAge
-        {
-            get
-            {
-                return myAge;
-            }
-            set
-            {
-                if (value < 0 && value > 120)
-                    throw new ArgumentException("Error");
-                myAge = value;
-            }
-        }
+        //public int MyAge
+        //{
+        //    get
+        //    {
+        //        return myAge;
+        //    }
+        //    set
+        //    {
+        //        if (value < 0 && value > 120)
+        //            throw new ArgumentException("Error");
+        //        myAge = value;
+        //    }
+        //}
 
         //private string _name = String.Empty;
         //public string GetName()
