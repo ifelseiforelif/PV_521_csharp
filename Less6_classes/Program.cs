@@ -18,7 +18,8 @@
             Console.WriteLine(p2);
 
             //Point + Point
-           // Point p3 = p1 + p2;
+            // Point p3 = p1 + p2;
+            //Point p4 = p1 * 2;
 
             
         }
