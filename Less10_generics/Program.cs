@@ -32,17 +32,29 @@ internal class Program
      */
     static void Main(string[] args)
     {
-        List<string> names = new List<string>();
-        names.Add("Bob");
-        names.Add("Alice");
-        names.Add("John");
-        Stack<string> stack = new Stack<string>();
-        LinkedList<string> list = new LinkedList<string>();
+        Team team = new Team("Test Team");
+        team.AddPlayer(new Player() { Name = "Bob", Number = 12 });
+        team.AddPlayer(new Player() { Name = "John", Number = 10 });
+        team.AddPlayer(new Player() { Name = "Frank", Number = 2 });
+        foreach (Player player in team)
+        {
+            Console.WriteLine(player);
+        }
 
-        Box<int> box1 = new Box<int>(10);
-        Console.WriteLine(box1.GetValue());
-        Box<string> box2 = new Box<string>("Hi");
-        Console.WriteLine(box2.GetValue());
+
+        //List<string> names = new List<string>();
+        //names.Add("Bob");
+        //names.Add("Alice");
+        //names.Add("John");
+        //foreach (var name in names)
+        //{
+        //    Console.WriteLine(name);
+        //}
+
+        //Box<int> box1 = new Box<int>(10);
+        //Console.WriteLine(box1.GetValue());
+        //Box<string> box2 = new Box<string>("Hi");
+        //Console.WriteLine(box2.GetValue());
 
         //Hashtable ht = new Hashtable();
         //ht["Alice"] = 20;
