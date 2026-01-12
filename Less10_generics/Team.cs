@@ -16,6 +16,11 @@ internal class Team:IEnumerable<Player>
         players.Add(player);
     }
 
+    public void Sorting()
+    {
+        players.Sort();
+    }
+
     public IEnumerator<Player> GetEnumerator()
     {
         return players.GetEnumerator();
